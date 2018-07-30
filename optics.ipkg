@@ -1,0 +1,7 @@
+package optics
+
+sourcedir = src
+
+opts = "-p contrib -p profunctors"
+
+modules = Main
