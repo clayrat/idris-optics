@@ -130,4 +130,5 @@ testElt = Refl
 
 -- 1.7 laws
 
-setGet : (l1 : Lens {p=Forgotten a} t t a b) -> (l2 : Lens {p=Arr} s t a b) -> (x : b) -> (y : s) -> view l1 (set l2 x y) = x
+-- TODO types here don't seem to match
+--setGet : (l1 : Lens {p=Forgotten a} t t a b) -> (l2 : Lens {p=Arr} s t a b) -> (x : b) -> (y : s) -> view l1 (set l2 x y) = x
